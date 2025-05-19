@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Спасибо! Мы получили вашу заявку.");
             form.reset();
         }).catch((error) => {
-            alert("Ошибка отправки формы. Попробуйте снова.");
+            alert("Ошибка отправки. Попробуйте снова.");
             console.error(error);
         });
     });
