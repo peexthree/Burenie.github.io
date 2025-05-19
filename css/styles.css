@@ -9,11 +9,26 @@
 }
 
 .font-alt {
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Kanit", sans-serif;
 }
 
 .text-gradient {
     background: linear-gradient(#2937f0, #9f1ae2);
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.display-1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size: 2.5rem;
+    }
 }
