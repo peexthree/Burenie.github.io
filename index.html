@@ -1,79 +1,288 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Алмазное бурение в Казани | Профессионально и без пыли</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Бурение скважин в Казани</title>
+    <link rel="icon" href="https://via.placeholder.com/32x32?text=Drill " />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons @1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit :ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader :wght@600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish :wght@300;500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/animate.css @4/animate.min.css" />
+
+    <!-- AOS Scroll Animation -->
+    <link href="https://unpkg.com/aos @2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-    <!-- Шапка -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">Burenie<span>Pro</span></div>
-            <div class="contacts">
-                <a href="tel:+78001234567"><i class="fas fa-phone"></i> 8 (800) 123-45-67</a>
-                <a href="https://t.me/burenie_kazan" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
-            </div>
-        </div>
-    </header>
+<body id="page-top">
 
-    <!-- Главный баннер -->
-    <section class="hero">
-        <div class="container">
-            <h1>Алмазное бурение в Казани</h1>
-            <p class="subtitle">Без пыли, шума и повреждений! Гарантия 3 года</p>
-            <div class="cta-buttons">
-                <button class="btn btn-primary" id="openModal">Вызвать мастера</button>
-                <a href="#prices" class="btn btn-secondary">Посмотреть цены</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Преимущества -->
-    <section class="advantages">
-        <div class="container">
-            <h2>Почему выбирают нас</h2>
-            <div class="advantages-grid">
-                <div class="advantage">
-                    <i class="fas fa-clock"></i>
-                    <h3>Быстро</h3>
-                    <p>От 30 минут на отверстие. Выезд в день обращения</p>
-                </div>
-                <div class="advantage">
-                    <i class="fas fa-broom"></i>
-                    <h3>Чисто</h3>
-                    <p>Немецкие установки с пылеудалением</p>
-                </div>
-                <div class="advantage">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Надежно</h3>
-                    <p>Гарантия до 3 лет на все работы</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Форма заявки (модальное окно) -->
-    <div class="modal" id="requestModal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Оставить заявку</h2>
-            <form id="requestForm">
-                <input type="text" placeholder="Ваше имя" required>
-                <input type="tel" placeholder="Телефон" required>
-                <select required>
-                    <option value="" disabled selected>Выберите услугу</option>
-                    <option>Бурение стен</option>
-                    <option>Бурение пола</option>
-                    <option>Проемы в бетоне</option>
-                </select>
-                <button type="submit" class="btn btn-primary">Отправить</button>
-            </form>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary-to-secondary fixed-top shadow-sm" id="mainNav">
+    <div class="container px-5">
+        <a class="navbar-brand fw-bold text-white" href="#page-top">Скважина Буровая</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Меню">
+            Меню
+            <i class="bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Преимущества</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#price">Цены</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#how-we-work">Как мы работаем</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#reviews">Отзывы</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#map">На карте</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#form">Форма</a></li>
+            </ul>
         </div>
     </div>
+</nav>
 
-    <script src="js/script.js"></script>
-</body>
-</html>
+<!-- Masthead -->
+<header class="masthead">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0 animate__animated animate__fadeInDown" data-aos="fade-up">
+                <h1 class="display-1 lh-1 mb-3 font-alt text-gradient">Алмазное бурение под скважины</h1>
+                <p class="lead fw-normal text-muted mb-5">
+                    ⚡ От 30 минут за отверстие | 🔋 Без пыли и трещин | 👷‍♂️ Гарантия 3 года
+                </p>
+                <a class="btn btn-primary rounded-pill px-4 py-3 animate__animated animate__tada animate__infinite" href="#form" data-aos="zoom-in">Рассчитать стоимость</a>
+            </div>
+            <div class="col-lg-6 text-center animate__animated animate__fadeInRight" data-aos="fade-left">
+                <img src="https://picsum.photos/600/400 " alt="Бурение под скважину" class="img-fluid rounded shadow" />
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- UTP -->
+<section class="bg-gradient-primary-to-secondary py-5 text-white text-center">
+    <div class="container px-5 text-white small">
+        <h2 class="font-alt display-4 animate__animated animate__zoomIn" data-aos="zoom-in">Мы делаем чистое и точное бурение под скважины. Используем профессиональное оборудование Hilti и Bosch.</h2>
+    </div>
+</section>
+
+<!-- Features -->
+<section id="features" class="py-5">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-5" data-aos="fade-up">Наши преимущества</h2>
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-md-6 col-lg-3 text-center mb-5 animate__animated animate__flipInY" data-aos="fade-up" data-aos-delay="100">
+                <i class="bi-drill icon-feature fs-1 text-primary mb-3"></i>
+                <h5 class="font-alt">Профессиональное оборудование</h5>
+                <p class="text-muted mb-0">Используем установки Hilti и Bosch для максимальной точности.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center mb-5 animate__animated animate__flipInY" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi-speedometer icon-feature fs-1 text-primary mb-3"></i>
+                <h5 class="font-alt">Выезд за 2 часа</h5>
+                <p class="text-muted mb-0">Приезжаем быстро, даже в день обращения.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center mb-5 animate__animated animate__flipInY" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi-shield-check icon-feature fs-1 text-primary mb-3"></i>
+                <h5 class="font-alt">Гарантия 3 года</h5>
+                <p class="text-muted mb-0">Если что-то не так — бесплатно исправим.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center mb-5 animate__animated animate__flipInY" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi-tools icon-feature fs-1 text-primary mb-3"></i>
+                <h5 class="font-alt">Опыт +10 лет</h5>
+                <p class="text-muted mb-0">Делаем всё по ГОСТу. Работаем в любых условиях.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section class="py-5 bg-light" id="portfolio">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-4">Наши работы</h2>
+        <div class="row gx-5 gy-3 text-center">
+            <div class="col-md-4">
+                <img src="https://picsum.photos/600/400 " class="img-fluid mb-3 rounded" alt="Скважина 1" data-aos="fade-up">
+                <p class="mt-2">Скважина под водоснабжение</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://picsum.photos/600/400 " class="img-fluid mb-3 rounded" alt="Скважина 2" data-aos="fade-up" data-aos-delay="100">
+                <p class="mt-2">Бурение на участке в частном доме</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://picsum.photos/600/400 " class="img-fluid mb-3 rounded" alt="Скважина 3" data-aos="fade-up" data-aos-delay="200">
+                <p class="mt-2">Скважина под систему орошения</p>
+            </div>
+        </div>
+        <p class="text-center mt-4 lead">Более 1000 выполненных скважин в 2024 году</p>
+    </div>
+</section>
+
+<!-- Prices -->
+<section id="price" class="py-5">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-4">Цены</h2>
+        <div class="table-responsive" data-aos="zoom-in">
+            <table class="table table-bordered table-hover mx-auto text-center animate__animated animate__fadeIn">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Глубина (м)</th>
+                        <th scope="col">100 мм</th>
+                        <th scope="col">150 мм</th>
+                        <th scope="col">200 мм</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>до 10 м</td>
+                        <td>5 000 ₽</td>
+                        <td>7 000 ₽</td>
+                        <td>10 000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>10–20 м</td>
+                        <td>12 000 ₽</td>
+                        <td>18 000 ₽</td>
+                        <td>25 000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>20–30 м</td>
+                        <td>22 000 ₽</td>
+                        <td>30 000 ₽</td>
+                        <td>40 000 ₽</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="text-center mt-3 text-muted">При заказе от 3 скважин — <strong>скидка 20%</strong></p>
+    </div>
+</section>
+
+<!-- How we work -->
+<section id="how-we-work" class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-5">Как мы работаем</h2>
+        <div class="row gx-5 justify-content-center">
+            <div class="col-md-3 text-center mb-4 animate__animated animate__rubberBand" data-aos="fade-right">
+                <i class="bi-chat-dots-fill text-primary fs-1 mb-3"></i>
+                <h5>Заявка</h5>
+                <p class="text-muted">Оставляете заявку или звоните</p>
+            </div>
+            <div class="col-md-3 text-center mb-4 animate__animated animate__rubberBand" data-aos="fade-up">
+                <i class="bi-person-check-fill text-primary fs-1 mb-3"></i>
+                <h5>Выезд мастера</h5>
+                <p class="text-muted">Мастер приезжает, осматривает участок</p>
+            </div>
+            <div class="col-md-3 text-center mb-4 animate__animated animate__rubberBand" data-aos="fade-down">
+                <i class="bi-drill text-primary fs-1 mb-3"></i>
+                <h5>Бурение</h5>
+                <p class="text-muted">Чисто, безопасно, точно по нормам</p>
+            </div>
+            <div class="col-md-3 text-center mb-4 animate__animated animate__rubberBand" data-aos="fade-left">
+                <i class="bi-check-circle-fill text-primary fs-1 mb-3"></i>
+                <h5>Приемка</h5>
+                <p class="text-muted">Вы проверяете качество — всё устраивает?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews" class="py-5 bg-gradient-primary-to-secondary text-white" data-aos="fade-up">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-5">Что говорят клиенты</h2>
+        <div class="row gx-5 gy-4 justify-content-center text-start">
+            <div class="col-md-6 col-lg-4">
+                <div class="bg-black p-4 rounded shadow animate__animated animate__fadeInLeft">
+                    <img src="https://picsum.photos/600/200 " class="img-fluid mb-3" alt="Отзыв клиента 1">
+                    <p class="mb-1">«Алексей, Зеленодольск»</p>
+                    <p class="text-muted small">Заказали бурение на участке — сделали за полдня! Всё аккуратно, вода пошла сразу. Рекомендую!</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="bg-black p-4 rounded shadow animate__animated animate__fadeInUp">
+                    <img src="https://picsum.photos/600/200 " class="img-fluid mb-3" alt="Отзыв клиента 2">
+                    <p class="mb-1">«Марина, Челны»</p>
+                    <p class="text-muted small">Бурение под скважину для дома — ребята знают своё дело! Пыли не было, соседи даже не заметили.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="bg-black p-4 rounded shadow animate__animated animate__fadeInRight">
+                    <img src="https://picsum.photos/600/200 " class="img-fluid mb-3" alt="Отзыв клиента 3">
+                    <p class="mb-1">«Иван, Альметьевск»</p>
+                    <p class="text-muted small">Скважина под систему полива. Теперь весь район им завидует!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Counter -->
+<section class="py-5 text-white bg-dark text-center">
+    <div class="container px-5">
+        <h2 class="font-alt display-4 animate__animated animate__bounceIn" data-aos="zoom-in">1000+</h2>
+        <p class="lead animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-delay="200">выполненных скважин по Татарстану</p>
+    </div>
+</section>
+
+<!-- Map -->
+<section id="map" class="py-5">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-5">Как нас найти</h2>
+        <div class="ratio ratio-16x9" data-aos="zoom-in">
+            <iframe src="https://www.google.com/maps/embed?pb= !1m18!1m12!1m3!1d2246.858567421838537!2d49.106332975835748!3d55.796121895972747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41594a4b4c9ed645%3A0x23587ab1e921a7fd!2z0JvRjNCy0YHQutCw0Y8!5e0!3m2!1sru!2sen!4v1720000000000!5m2!1sru!2sen"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Form -->
+<section id="form" class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="text-center font-alt display-4 mb-4" data-aos="fade-up">Оставьте заявку — мастер перезвонит через 7 минут!</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form action="https://formspree.io/f/YOUR_FORM_ID_HERE " method="POST" id="contactForm" novalidate data-aos="zoom-in">
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" name="name" placeholder="Ваше имя" required />
+                        <label for="name">Ваше имя</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="phone" type="tel" name="phone" placeholder="+7 (999) 999-99-99" required />
+                        <label for="phone">Номер телефона</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="holeType" name="holeType" aria-label="Выберите диаметр скважины" required>
+                            <option selected disabled value="">Выберите диаметр скважины</option>
+                            <option value="100">100 мм</option>
+                            <option value="150">150 мм</option>
+                            <option value="200">200 мм</option>
+                        </select>
+                        <label for="holeType">Диаметр скважины</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" name="message" placeholder="Ваш комментарий..." style="height: 150px;"></textarea>
+                        <label for="message">Комментарий</label>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-primary rounded-pill px-4 py-3 animate__animated animate__tada animate__infinite" type="submit">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-center py-5">
+    <div class="container px-5 text-white small">
+        <p class="m-0">© 2025 Скважина Буровая | Казань и РТ</p>
+        <p class="m-0 mt-2">Телефон: <strong>+7 (XXX) XXX-XX-XX</strong></p>
+        <div class="mt-3">
+            <img src="https://via.placeholder.com/
