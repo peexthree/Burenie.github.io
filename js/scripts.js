@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         const formData = new FormData(form);
         fetch(form.action, {
-            method: form.method,
+            method: 'POST',
             body: formData
         }).then(() => {
             alert("Спасибо! Мы получили вашу заявку.");
