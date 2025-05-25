@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     --primary: #FF6B00;
     --primary-dark: #E05A00;
     --secondary: #2F2F2F;
@@ -6,7 +6,6 @@
     --gray: #F5F5F5;
     --dark-gray: #888888;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -108,23 +107,15 @@ header {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
-/* Video Section */
-.video-section {
+/* About Section */
+.about-section {
     padding: 80px 0;
-    background-color: var(--light);
-    text-align: center;
+    background-color: var(--gray);
 }
-.video-container {
+.about-section p {
     max-width: 800px;
-    margin: 0 auto;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.video-container iframe {
-    width: 100%;
-    height: 450px;
-    border: none;
+    margin: 20px auto;
+    line-height: 1.8;
 }
 /* Benefits Section */
 .benefits {
@@ -161,71 +152,26 @@ header {
     font-size: 22px;
     margin-bottom: 15px;
 }
-/* Calculator Section */
-.calculator {
+/* Price Section */
+.price {
     padding: 80px 0;
     background-color: var(--light);
 }
-.calculator-container {
-    max-width: 800px;
-    margin: 0 auto;
+.price-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.price-table th, .price-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.price-table th {
     background-color: var(--gray);
-    padding: 40px;
-    border-radius: 10px;
-}
-.calculator-title {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.form-group {
-    margin-bottom: 20px;
-}
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-}
-.form-group input, .form-group select {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-}
-.calculate-btn {
-    background-color: var(--primary);
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 16px;
     font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    transition: background-color 0.3s;
 }
-.calculate-btn:hover {
-    background-color: var(--primary-dark);
-}
-.result {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: var(--light);
-    border-radius: 5px;
-    display: none;
-}
-/* Lead Form */
-.lead-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-.lead-form input {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.price-table tr:hover {
+    background-color: var(--gray);
 }
 /* CTA Section */
 .cta-section {
